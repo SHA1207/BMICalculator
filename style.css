@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure body takes up full height */
+}
+body {
+    background-image: url("background.jpeg"); /* Make sure path is correct */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1{
+    text-align: center;
+    color: beige;
+}
+table{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+  td {
+    padding: 5px; 
+    text-align: left; 
+    color: beige;
+    font-size: larger;
+  }
+
+  input[type="text"] {
+    margin: 20px;
+    width: 200px; 
+    padding: 5px;
+    box-sizing: border-box; 
+    color: black;
+  }
+
+  button {
+    padding: 8px 16px;
+    display: block; 
+    margin-left: 125px;
+    margin-top: 50px;
+    font-size: large;
+  }
+
+
+
+input[type="radio"] {
+    margin-right: 5px; 
+    vertical-align:top;
+}
+
+#bmiResult {
+
+  font-size: larger;
+  background-color: aliceblue;
+  color: black;
+}
